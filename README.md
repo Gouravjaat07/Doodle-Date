@@ -11,8 +11,8 @@ Expected Final UI <img width="1024" height="1536" alt="Doodle-Date_Project-UI" s
 
 ## ⚙️ Current Implementation (Work in Progress)
 
-![Current UI]()
-<img width="348" height="623" alt="Screenshot 2026-04-09 104121" src="https://github.com/user-attachments/assets/6c1c9949-2252-4031-bf09-a979d7dc7788" />
+Current UI
+<img width="652" height="699" alt="Screenshot 2026-04-09 231530" src="https://github.com/user-attachments/assets/cd75240d-b37a-44d1-9eb5-70661b771242" />
 
 > ⚠️ All core functionalities are **fully implemented and working**.
 > UI is currently being refined to match the final vision.
@@ -172,6 +172,22 @@ This project goes beyond a simple notes section by introducing a **fully customi
   * `useState`
   * `useReducer`
 * 💾 localStorage
+
+---
+
+▶️ Run Locally
+
+# 📁 Step 1: Go to project folder
+cd wall-calendar
+
+# 📦 Step 2: Install dependencies
+npm install
+
+# 🚀 Step 3: Start development server
+npm run dev
+
+# 🌐 Step 4: Open in browser
+http://localhost:5173
 
 ---
 
