@@ -23,7 +23,7 @@ export default function Calendar({
     <div style={{
       padding,
       background: dark ? "#0f1424" : "#ffffff",
-      borderRadius: "10px",
+      borderRadius: "0",
       minWidth: 0,
     }}>
       {/* Month navigator */}
