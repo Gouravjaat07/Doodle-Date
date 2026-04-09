@@ -268,14 +268,6 @@ export default function App() {
               onError={(e) => { e.target.style.display = "none"; }}
             />
             <div style={{ position: "absolute", inset: 0, background: "linear-gradient(90deg,rgba(0,0,0,.54) 0%,rgba(0,0,0,.15) 58%,transparent)", pointerEvents: "none" }} />
-            <div style={{ position: "absolute", bottom: 20, left: 26 }}>
-              <div style={{ fontSize: 34, fontWeight: 900, color: "#4db8ff", lineHeight: .65, marginBottom: 4, fontFamily: "'DM Serif Display',serif" }}>"</div>
-              <div style={{ fontSize: 21, fontWeight: 800, color: "#fff", fontFamily: "'DM Serif Display',serif", lineHeight: 1.15, textShadow: "0 2px 10px rgba(0,0,0,.55)" }}>{heroQ1}</div>
-              <div style={{ fontSize: 14, color: "rgba(240,246,255,.92)", fontFamily: "'DM Serif Display',serif", textShadow: "0 1px 6px rgba(0,0,0,.5)", lineHeight: 1.55, marginTop: 2 }}>
-                {heroQ2.split("\n").map((l, i) => <span key={i}>{l}{i < heroQ2.split("\n").length - 1 && <br />}</span>)}
-              </div>
-              <div style={{ width: 86, height: 2.5, background: "#1a72c9", marginTop: 7, borderRadius: 2 }} />
-            </div>
           </div>
 
           {/* Body: calendar + right panel */}
