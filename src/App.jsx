@@ -391,11 +391,7 @@ export default function App() {
             background: "linear-gradient(160deg,#1b3d6e,#2a6da8 35%,#5b9fcf 65%,#8fc5e0 85%,#c0ddf0)",
           }}>
             <img
-<<<<<<< HEAD
               src="/Calendar_Main_Img.png"
-=======
-              src="/images/Calendar_Main_Img.png"
->>>>>>> 0a7625b (Adding Top Bar)
               alt="hero"
               style={{
                 position: "absolute", inset: 0, width: "100%", height: "100%",
@@ -403,15 +399,7 @@ export default function App() {
               }}
               onError={(e) => { e.target.style.display = "none"; }}
             />
-<<<<<<< HEAD
             <div style={{ position: "absolute", inset: 0, background: "linear-gradient(90deg,rgba(0,0,0,.54) 0%,rgba(0,0,0,.15) 58%,transparent)", pointerEvents: "none" }} />
-=======
-            <div style={{
-              position: "absolute", inset: 0,
-              background: "linear-gradient(90deg,rgba(0,0,0,.54) 0%,rgba(0,0,0,.15) 58%,transparent)",
-              pointerEvents: "none"
-            }} />
->>>>>>> 0a7625b (Adding Top Bar)
           </div>
 
           {/* Body: calendar + right panel */}
