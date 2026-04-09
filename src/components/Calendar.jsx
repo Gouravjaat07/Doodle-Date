@@ -9,7 +9,11 @@ export default function Calendar({
   dark, textPrimary, textMuted,
 }) {
   return (
-    <div style={{ padding: "16px 18px 12px" }}>
+    <div style={{
+      padding: "16px 18px 12px",
+      background: dark ? "#0f1424" : "#ffffff",
+      borderRadius: "10px"
+    }}>
       {/* Month navigator */}
       <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 13 }}>
         <div style={{ fontSize: 20, fontWeight: 900, color: textPrimary, letterSpacing: .4 }}>
