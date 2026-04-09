@@ -262,7 +262,7 @@ export default function App() {
             background: "linear-gradient(160deg,#1b3d6e,#2a6da8 35%,#5b9fcf 65%,#8fc5e0 85%,#c0ddf0)"
           }}>
             <img
-              src="/mnt/user-data/uploads/Calendar_Main_Img.png"
+              src="/Calendar_Main_Img.png"
               alt="hero"
               style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "cover", objectPosition: "center 28%", opacity: .88 }}
               onError={(e) => { e.target.style.display = "none"; }}
